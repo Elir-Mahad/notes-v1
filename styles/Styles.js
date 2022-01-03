@@ -26,6 +26,8 @@ export const BlogMenuBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: red;
+  position: s;
 `;
 
 export const TopBlogsMenu = styled.div`

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Allposts from "../components/Allposts";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
+      <p>test</p>
+      {/* <Allposts /> */}
     </div>
   );
 }

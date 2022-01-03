@@ -5,11 +5,9 @@ import Menu from "./Menu";
 function Layout({ children }) {
   return (
     <WholeApp>
+      <Header />
       <Menu />
-      <div>
-        <Header />
-        {children}
-      </div>
+      <div>{children}</div>
     </WholeApp>
   );
 }
