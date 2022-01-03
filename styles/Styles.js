@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WholeApp = styled.div`
-  font-family: "Metrophobic", sans-serif;
+  font-family: Roboto, sans-serif;
 `;
 
 export const Heading = styled.h1`
@@ -9,25 +9,21 @@ export const Heading = styled.h1`
   font-size: 3rem;
 `;
 
-// Blogs page
-
-export const BlogContainer = styled.div`
-  margin-top: 3.5rem;
-  margin-bottom: 1rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  @media (max-width: 500px) {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
+export const CustomMenu = styled.div`
+  position: relative;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  padding: 0.5rem;
+  font-family: "Metrophobic", sans-serif;
+  background-color: white;
+  border-bottom: 1px solid black;
 `;
 
 export const BlogMenuBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: red;
-  position: s;
 `;
 
 export const TopBlogsMenu = styled.div`
@@ -68,6 +64,19 @@ export const BlogName = styled.p`
   margin-bottom: 1rem;
   cursor: pointer;
   padding: 0.5rem;
+`;
+
+// Blogs page
+
+export const BlogContainer = styled.div`
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  @media (max-width: 500px) {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 `;
 
 // Individual blog

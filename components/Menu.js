@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import {
   BlogName,
-  // BlogContainer,
   BlogsMenu,
   TopBlogsMenu,
   TbMheading,
   BlogMenuBox,
   TbMicon,
+  CustomMenu,
 } from "../styles/Styles.js";
 import Link from "next/link";
 import { BsChevronDown } from "react-icons/bs";
@@ -33,8 +33,7 @@ function Menu() {
   };
   //
   return (
-    <div>
-      {/* <BlogContainer> */}
+    <CustomMenu>
       <BlogMenuBox>
         <TopBlogsMenu>
           <TbMheading>Writings</TbMheading>
@@ -64,8 +63,7 @@ function Menu() {
           </BlogsMenu>
         )}
       </BlogMenuBox>
-      {/* </BlogContainer> */}
-    </div>
+    </CustomMenu>
   );
 }
 
