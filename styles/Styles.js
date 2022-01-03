@@ -9,30 +9,34 @@ export const Heading = styled.h1`
   font-size: 3rem;
 `;
 
+// Menu
+
 export const CustomMenu = styled.div`
   position: relative;
   z-index: 2;
   position: sticky;
   top: 0;
-  padding: 0.5rem;
   font-family: "Metrophobic", sans-serif;
   background-color: white;
-  border-bottom: 1px solid black;
+  margin-top: 1rem;
 `;
 
 export const BlogMenuBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  // background-color: green;
 `;
 
 export const TopBlogsMenu = styled.div`
+  // background-color: red;
   width: 20rem;
   border: 1px solid grey;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
   cursor: pointer;
-  margin-bottom: 1rem;
   @media (max-width: 500px) {
     width: 15rem;
   }
@@ -41,18 +45,20 @@ export const TopBlogsMenu = styled.div`
 export const TbMheading = styled.p`
   width: 95%;
   border-right: 1px solid black;
-  padding: 0.5rem;
+  margin: 0rem;
+  padding-left: 0.5rem;
 `;
 
 export const TbMicon = styled.p`
-  padding: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 `;
 
 export const BlogsMenu = styled.div`
   width: 20rem;
   height: 10rem;
   overflow: auto;
-  padding-top: 1rem;
+  padding: 1rem;
   background-color: #f6f6f6;
   border-radius: 5px;
   @media (max-width: 500px) {

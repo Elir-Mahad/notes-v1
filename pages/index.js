@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Allposts from "../components/Allposts";
 
 export default function Home() {
   return (
@@ -9,12 +8,10 @@ export default function Home() {
         <meta name="keywords" content="Homepage, HTML, CSS, JavaScript" />
         <meta name="description" content="Homepage, Free Web tutorials" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Roboto&display=swap"
           rel="stylesheet"
         />
       </Head>
-      <p>test</p>
-      {/* <Allposts /> */}
     </div>
   );
 }

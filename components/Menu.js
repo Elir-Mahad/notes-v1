@@ -59,7 +59,10 @@ function Menu() {
               <BlogName>How to deploy a site on Netlify.</BlogName>
             </Link>
             {/*  */}
-            <Link href="/git-notes">Git notes</Link>
+
+            <Link href="/git-notes">
+              <BlogName>Git notes</BlogName>
+            </Link>
           </BlogsMenu>
         )}
       </BlogMenuBox>
