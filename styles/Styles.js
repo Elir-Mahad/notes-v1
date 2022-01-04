@@ -138,5 +138,6 @@ export const Code = styled.p`
 `;
 
 export const PicWrapper = styled.div`
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 `;
