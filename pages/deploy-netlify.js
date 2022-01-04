@@ -10,7 +10,7 @@ function DeployNetlifySite() {
   return (
     <div>
       <BlogBody>
-        <PostTitle>Notes How to deploy a site on netlify</PostTitle>
+        <PostTitle>How to deploy a site on netlify</PostTitle>
 
         <Sentence>
           1. Get a domain from namecheap, hover, godaddy, or any other preferred

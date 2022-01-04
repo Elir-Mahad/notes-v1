@@ -52,16 +52,20 @@ function Menu() {
         {menuContent && (
           <BlogsMenu>
             <Link href="/deploy-react-github-pages">
-              <BlogName>How to deploy a react site on github pages.</BlogName>
+              <BlogName onClick={hideContent}>
+                How to deploy a react site on github pages.
+              </BlogName>
             </Link>
             {/*  */}
             <Link href="/deploy-netlify">
-              <BlogName>How to deploy a site on Netlify.</BlogName>
+              <BlogName onClick={hideContent}>
+                How to deploy a site on Netlify.
+              </BlogName>
             </Link>
             {/*  */}
 
             <Link href="/git-notes">
-              <BlogName>Git notes</BlogName>
+              <BlogName onClick={hideContent}>Git notes</BlogName>
             </Link>
           </BlogsMenu>
         )}
