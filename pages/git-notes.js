@@ -13,12 +13,11 @@ import githubusername from "../assets/githubusername.png";
 import githubuseremail from "../assets/githubuseremail.png";
 import createrepo from "../assets/createrepo.png";
 import remoteurl from "../assets/remoteurl.png";
-import style from "../styles/Home.module.css";
 import Image from "next/image";
 
 function GitNotes() {
   return (
-    <div className={style.container}>
+    <div>
       <BlogBody>
         <PostTitle>How to use Git and Github</PostTitle>
         <SubHeading>
