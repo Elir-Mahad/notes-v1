@@ -9,11 +9,6 @@ export const WholeApp = styled.div`
     margin-right: 1.5rem;
   }
 `;
-
-export const Heading = styled.h1`
-  //
-`;
-
 // Menu
 
 export const CustomMenu = styled.div`
