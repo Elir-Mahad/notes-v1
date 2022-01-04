@@ -12,7 +12,6 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <h1>Think about thinking</h1>
     </div>
   );
 }
