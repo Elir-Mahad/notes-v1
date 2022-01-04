@@ -52,8 +52,8 @@ function GitNotes() {
         <Code>git version 2.27.0</Code>
         <Sentence>Declare your user name and email:</Sentence>
         <Code>
-          git config --global user.name "mona-lisa" <br />
-          git config --global user.email "mona-lisa@gmail.com"
+          git config --global user.name 'mona-lisa' <br />
+          git config --global user.email 'mona-lisa@gmail.com'
         </Code>
         <Sentence>3. Check that correct user information is in vsc:</Sentence>
         <Code>git config --list</Code>
@@ -125,7 +125,7 @@ function GitNotes() {
 
         <Code>
           git add . <br />
-          git commit -m “Add header code” <br />
+          git commit -m 'Add header code' <br />
           git push <br />
         </Code>
 

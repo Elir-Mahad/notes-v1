@@ -28,15 +28,15 @@ function DeployReactSiteGit() {
         <Sentence>4. Make edits to the package.json .</Sentence>
         <Litem>Open the 'package.json' file.</Litem>
         <Litem>In the package.json, under [ private : true ] type:</Litem>
-        <Code>"homepage": "https://elir-mahad.github.io/reactapp/",</Code>
+        <Code>'homepage': 'https://elir-mahad.github.io/reactapp/',</Code>
         <Litem>
           In the package.json, in the scripts object, under [ eject :
           react-scripts-eject ] type:
         </Litem>
         <Code>
-          "predeploy": "yarn build",
+          'predeploy': 'yarn build',
           <br />
-          "deploy": "gh-pages -d build"
+          'deploy': 'gh-pages -d build'
         </Code>
         <Sentence>5. Deploy the app.</Sentence>
         <Litem>In the laptop or vsc terminal:</Litem>
