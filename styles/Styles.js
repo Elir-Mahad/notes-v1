@@ -19,9 +19,11 @@ export const CustomMenu = styled.div`
   top: 0;
   width: 20rem;
   height: 3.67rem;
-  margin-top: 1rem;
   margin-left: 1rem;
   background-color: white;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
 `;
 
 export const BlogMenuBox = styled.div`
