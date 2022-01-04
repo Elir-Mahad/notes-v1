@@ -7,6 +7,7 @@ import {
   SubHeading,
   Code,
   LitemTwo,
+  PicWrapper,
 } from "../styles/Styles.js";
 import githubusername from "../assets/githubusername.png";
 import githubuseremail from "../assets/githubuseremail.png";
@@ -25,19 +26,23 @@ function GitNotes() {
         </SubHeading>
         <Sentence>1. Identify your github username and user email:</Sentence>
         <Litem> Your user name is in your github profile.</Litem>
-        <Image
-          //
-          src={githubusername}
-          alt=" "
-        />
+        <PicWrapper>
+          <Image
+            //
+            src={githubusername}
+            alt="Github profile user name"
+          />
+        </PicWrapper>
         <Litem>Your email is in your github settings.</Litem>
         <LitemTwo>Go to the github settings.</LitemTwo>
         <LitemTwo>On the left panel, click on the Emails tab.</LitemTwo>
-        <Image
-          //
-          src={githubuseremail}
-          alt=" "
-        />
+        <PicWrapper>
+          <Image
+            //
+            src={githubuseremail}
+            alt="Github settings username"
+          />
+        </PicWrapper>
         <Sentence>2. Declare globally your github username and email:</Sentence>
         <Sentence>
           Make sure you have github in your computer by checking your github
@@ -62,20 +67,24 @@ function GitNotes() {
           How to add a remote url to your local repository
         </SubHeading>
         <Sentence>1. Create a repo:</Sentence>
-        <Image
-          //
-          src={createrepo}
-          alt=""
-        />
+        <PicWrapper>
+          <Image
+            //
+            src={createrepo}
+            alt="Github page for creating a new repository"
+          />
+        </PicWrapper>
         <Sentence>
           2. Copy and paste the remote origin url into the terminal or vsc
           terminal:
         </Sentence>
-        <Image
-          //
-          src={remoteurl}
-          alt=""
-        />
+        <PicWrapper>
+          <Image
+            //
+            src={remoteurl}
+            alt="Github repository quick set up page"
+          />
+        </PicWrapper>
         <Sentence>
           3. Check that remote url is connected to local repo:
         </Sentence>

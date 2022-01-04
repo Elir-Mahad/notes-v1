@@ -18,7 +18,7 @@ export const CustomMenu = styled.div`
   position: sticky;
   top: 0;
   width: 20rem;
-  height: 4rem;
+  height: 3.67rem;
   margin-top: 1rem;
   margin-left: 1rem;
   background-color: white;
@@ -129,4 +129,8 @@ export const Code = styled.p`
   border-radius: 5px;
   line-height: 2rem;
   border: 1px solid grey;
+`;
+
+export const PicWrapper = styled.div`
+  padding: 1rem;
 `;
