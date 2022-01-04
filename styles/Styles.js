@@ -9,6 +9,7 @@ export const WholeApp = styled.div`
     margin-right: 1.5rem;
   }
 `;
+
 // Menu
 
 export const CustomMenu = styled.div`
@@ -17,11 +18,10 @@ export const CustomMenu = styled.div`
   position: sticky;
   top: 0;
   width: 20rem;
-  height: 3.5rem;
-  display: block;
-  margin: auto;
+  height: 4rem;
   margin-top: 1rem;
-  background-color: black;
+  margin-left: 1rem;
+  background-color: white;
 `;
 
 export const BlogMenuBox = styled.div`
@@ -34,7 +34,7 @@ export const TopBlogsMenu = styled.div`
   align-items: center;
   width: 20rem;
   font-size: 1.1rem;
-  color: white;
+  border: 1px solid black;
   @media (max-width: 500px) {
     width: 15rem;
   }
@@ -42,7 +42,7 @@ export const TopBlogsMenu = styled.div`
 
 export const TbMheading = styled.p`
   width: 95%;
-  border-right: 1px solid white;
+  border-right: 1px solid black;
   padding-left: 1rem;
 `;
 
@@ -128,4 +128,5 @@ export const Code = styled.p`
   background-color: #f6f8fa;
   border-radius: 5px;
   line-height: 2rem;
+  border: 1px solid grey;
 `;
