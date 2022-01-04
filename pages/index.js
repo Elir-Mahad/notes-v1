@@ -8,7 +8,7 @@ export default function Home() {
         <meta name="keywords" content="Homepage, HTML, CSS, JavaScript" />
         <meta name="description" content="Homepage, Free Web tutorials" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Roboto&display=swap"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
           rel="stylesheet"
         />
       </Head>
