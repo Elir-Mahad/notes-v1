@@ -5,8 +5,8 @@ export const WholeApp = styled.div`
   margin-left: 3rem;
   margin-right: 3rem;
   @media (max-width: 500px) {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 `;
 
@@ -19,11 +19,13 @@ export const CustomMenu = styled.div`
   top: 0;
   width: 20rem;
   height: 3.67rem;
-  margin-left: 1rem;
   background-color: white;
-  display: block;
-  margin: auto;
   margin-top: 1rem;
+  margin-left: 1rem;
+  @media (max-width: 500px) {
+    width: unset;
+    width: 15rem;
+  }
 `;
 
 export const BlogMenuBox = styled.div`
@@ -38,6 +40,7 @@ export const TopBlogsMenu = styled.div`
   font-size: 1.1rem;
   border: 1px solid black;
   @media (max-width: 500px) {
+    width: unset;
     width: 15rem;
   }
 `;
@@ -62,6 +65,7 @@ export const BlogsMenu = styled.div`
   padding: 0.5rem;
   background-color: #f6f6f6;
   @media (max-width: 500px) {
+    width: unset;
     width: 15rem;
   }
 `;

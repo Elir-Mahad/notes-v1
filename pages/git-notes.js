@@ -20,7 +20,7 @@ function GitNotes() {
   return (
     <div className={style.container}>
       <BlogBody>
-        <PostTitle>Git notes</PostTitle>
+        <PostTitle>How to use Git and Github</PostTitle>
         <SubHeading>
           How to connect your github account to your computer
         </SubHeading>
