@@ -1,3 +1,4 @@
+import Head from "next/head";
 import {
   //
   BlogBody,
@@ -18,8 +19,19 @@ import Image from "next/image";
 function GitNotes() {
   return (
     <div>
+      <Head>
+        <title>Notes on git and github</title>
+        <meta
+          name="keywords"
+          content="Github, Git, frontend development, JavaScript, Tutorial"
+        />
+        <meta
+          name="description"
+          content="Instructions on how to use github and git"
+        />
+      </Head>
       <BlogBody>
-        <PostTitle>How to use Git and Github</PostTitle>
+        <PostTitle>Notes on git and github</PostTitle>
         <SubHeading>
           How to connect your github account to your computer
         </SubHeading>

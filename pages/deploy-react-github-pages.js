@@ -1,4 +1,4 @@
-import React from "react";
+import Head from "next/head";
 import {
   //
   BlogBody,
@@ -12,6 +12,17 @@ import {
 function DeployReactSiteGit() {
   return (
     <div>
+      <Head>
+        <title>How to deploy a react site on github pages</title>
+        <meta
+          name="keywords"
+          content="Github, Git, frontend development, JavaScript, React, Github pages, Deploy website"
+        />
+        <meta
+          name="description"
+          content="Instructions on how to deploy a react application on github pages"
+        />
+      </Head>
       <BlogBody>
         <PostTitle>How to deploy a react site on github pages</PostTitle>
         <Sentence>

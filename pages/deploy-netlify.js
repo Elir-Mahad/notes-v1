@@ -1,3 +1,4 @@
+import Head from "next/head";
 import {
   //
   BlogBody,
@@ -9,6 +10,17 @@ import {
 function DeployNetlifySite() {
   return (
     <div>
+      <Head>
+        <title>How to deploy a regular site on netlify</title>
+        <meta
+          name="keywords"
+          content="Frontend Development, JavaScript, Netlify, Deploy website"
+        />
+        <meta
+          name="description"
+          content="Instructions on how to deploy a basic html and css website on netlify"
+        />
+      </Head>
       <BlogBody>
         <PostTitle>How to deploy a site on netlify</PostTitle>
 
