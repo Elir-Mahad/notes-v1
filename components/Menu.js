@@ -3,14 +3,14 @@ import {
   BlogName,
   BlogsMenu,
   TopBlogsMenu,
-  TbMheading,
   BlogMenuBox,
+  TbMheading,
   TbMicon,
   CustomMenu,
 } from "../styles/Styles.js";
 import Link from "next/link";
-import { BsChevronDown } from "react-icons/bs";
 import { MdClose } from "react-icons/md";
+import { GrMenu } from "react-icons/gr";
 //
 function Menu() {
   //
@@ -36,10 +36,9 @@ function Menu() {
     <CustomMenu>
       <BlogMenuBox>
         <TopBlogsMenu>
-          <TbMheading>Posts</TbMheading>
           {openIcon && (
             <TbMicon onClick={showContent}>
-              <BsChevronDown />
+              <GrMenu />
             </TbMicon>
           )}
           {closeIcon && (
@@ -47,6 +46,7 @@ function Menu() {
               <MdClose />
             </TbMicon>
           )}
+          <TbMheading>Mahad's notes</TbMheading>
         </TopBlogsMenu>
 
         {menuContent && (

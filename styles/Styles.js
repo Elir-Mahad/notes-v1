@@ -2,30 +2,27 @@ import styled from "styled-components";
 
 export const WholeApp = styled.div`
   font-family: "IBM Plex Mono", monospace;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  @media (max-width: 500px) {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
 `;
 
 // Menu
 
 export const CustomMenu = styled.div`
-  // position: relative; was used before, keep here just incase build breaks
   z-index: 2;
   position: sticky;
   top: 0;
   // width: 20rem;
-  height: 3.67rem;
-  background-color: #2b2e4a;
-  margin-top: 1rem;
-  // margin-left: 1rem;
+  height: 3rem;
+  background-color:white;
+  border-bottom:1px solid black;
+  // margin-top: 0.5rem;
+  // padding:1rem;
+  padding-top:0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   @media (max-width: 500px) {
-    // width: unset;
-    // width: 15rem;
-  }
+  width: unset;
+  // width: 15rem;
+  // }
 `;
 
 export const BlogMenuBox = styled.div`
@@ -37,26 +34,27 @@ export const TopBlogsMenu = styled.div`
   justify-content: space-between;
   align-items: center;
   // width: 20rem;
-  font-size: 1.1rem;
+  // font-size: 1.1rem;
   // border: 1px solid black;
-  @media (max-width: 500px) {
-    // width: unset;
-    // width: 15rem;
-  }
+  // @media (max-width: 500px) {
+  // width: unset;
+  // width: 15rem;
+  // }
 `;
 
-export const TbMheading = styled.p`
-  width: 95%;
-  border-right: 1px solid white;
-  padding-left: 1rem;
-  color: white;
+export const TbMheading = styled.a`
+  text-align: center;
 `;
 
-export const TbMicon = styled.p`
-  padding-right: 1rem;
-  padding-left: 1rem;
+export const TbMicon = styled.div`
   cursor: pointer;
-  color: white;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding-top: 0.5rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  // margin-left: 1rem;
+  background-color: white;
 `;
 
 export const BlogsMenu = styled.div`
@@ -65,11 +63,13 @@ export const BlogsMenu = styled.div`
   border: 1px solid black;
   overflow: auto;
   padding: 0.5rem;
+  margin-top: 0.25rem;
+  // margin-left: 1rem;
   background-color: #f6f6f6;
-  @media (max-width: 500px) {
-    // width: unset;
-    // width: 15rem;
-  }
+  // @media (max-width: 500px) {
+  // width: unset;
+  // width: 15rem;
+  // }
 `;
 
 export const BlogName = styled.p`
@@ -80,6 +80,16 @@ export const BlogName = styled.p`
 
 // Individual blog
 
+export const BlogBody = styled.div`
+  // padding: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  @media (max-width: 500px) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+`;
+
 export const PostTitle = styled.h2`
   font-weight: 100;
   font-size: 1.4rem;
@@ -87,10 +97,6 @@ export const PostTitle = styled.h2`
   padding: 1rem;
   margin-bottom: 1rem;
   background-color: lightgrey;
-`;
-
-export const BlogBody = styled.div`
-  // padding: 1rem;
 `;
 
 export const SubHeading = styled.h3`
