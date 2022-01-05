@@ -51,6 +51,10 @@ function Menu() {
 
         {menuContent && (
           <BlogsMenu>
+            <Link href="https://mahad.codes/">
+              <BlogName onClick={hideContent}>About me</BlogName>
+            </Link>
+            {/*  */}
             <Link href="/deploy-react-github-pages">
               <BlogName onClick={hideContent}>
                 How to deploy a react site on github pages.
