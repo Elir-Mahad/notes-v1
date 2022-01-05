@@ -17,14 +17,14 @@ export const CustomMenu = styled.div`
   z-index: 2;
   position: sticky;
   top: 0;
-  width: 20rem;
+  // width: 20rem;
   height: 3.67rem;
   background-color: white;
   margin-top: 1rem;
-  margin-left: 1rem;
+  // margin-left: 1rem;
   @media (max-width: 500px) {
-    width: unset;
-    width: 15rem;
+    // width: unset;
+    // width: 15rem;
   }
 `;
 
@@ -36,12 +36,12 @@ export const TopBlogsMenu = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 20rem;
+  // width: 20rem;
   font-size: 1.1rem;
   border: 1px solid black;
   @media (max-width: 500px) {
-    width: unset;
-    width: 15rem;
+    // width: unset;
+    // width: 15rem;
   }
 `;
 
@@ -58,15 +58,15 @@ export const TbMicon = styled.p`
 `;
 
 export const BlogsMenu = styled.div`
-  width: 20rem;
-  height: 10rem;
+  // width: 20rem;
+  // height: 10rem;
   border: 1px solid black;
   overflow: auto;
   padding: 0.5rem;
   background-color: #f6f6f6;
   @media (max-width: 500px) {
-    width: unset;
-    width: 15rem;
+    // width: unset;
+    // width: 15rem;
   }
 `;
 
@@ -87,7 +87,7 @@ export const PostTitle = styled.h2`
 `;
 
 export const BlogBody = styled.div`
-  padding: 1rem;
+  // padding: 1rem;
 `;
 
 export const SubHeading = styled.h3`
