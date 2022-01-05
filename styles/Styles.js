@@ -19,7 +19,7 @@ export const CustomMenu = styled.div`
   top: 0;
   // width: 20rem;
   height: 3.67rem;
-  background-color: white;
+  background-color: #2b2e4a;
   margin-top: 1rem;
   // margin-left: 1rem;
   @media (max-width: 500px) {
@@ -38,7 +38,7 @@ export const TopBlogsMenu = styled.div`
   align-items: center;
   // width: 20rem;
   font-size: 1.1rem;
-  border: 1px solid black;
+  // border: 1px solid black;
   @media (max-width: 500px) {
     // width: unset;
     // width: 15rem;
@@ -47,14 +47,16 @@ export const TopBlogsMenu = styled.div`
 
 export const TbMheading = styled.p`
   width: 95%;
-  border-right: 1px solid black;
+  border-right: 1px solid white;
   padding-left: 1rem;
+  color: white;
 `;
 
 export const TbMicon = styled.p`
   padding-right: 1rem;
   padding-left: 1rem;
   cursor: pointer;
+  color: white;
 `;
 
 export const BlogsMenu = styled.div`
@@ -80,6 +82,7 @@ export const BlogName = styled.p`
 
 export const PostTitle = styled.h2`
   font-weight: 100;
+  font-size: 1.4rem;
   text-align: left;
   padding: 1rem;
   margin-bottom: 1rem;

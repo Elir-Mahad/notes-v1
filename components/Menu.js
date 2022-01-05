@@ -36,7 +36,7 @@ function Menu() {
     <CustomMenu>
       <BlogMenuBox>
         <TopBlogsMenu>
-          <TbMheading>Notes</TbMheading>
+          <TbMheading>Posts</TbMheading>
           {openIcon && (
             <TbMicon onClick={showContent}>
               <BsChevronDown />
