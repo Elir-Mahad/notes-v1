@@ -96,39 +96,44 @@ export const BlogBody = styled.div`
 export const SubHeading = styled.h3`
   margin-bottom: 1rem;
   margin-top: 1rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.01rem;
+  line-height: 2rem;
+  color: darkblue;
+  font-weight: 100;
 `;
 
 export const Paragraph = styled.p`
   margin-bottom: 1rem;
   text-indent: 50px;
-  line-height: 3rem;
+  line-height: 2rem;
 `;
 
 export const Sentence = styled.p`
   margin-bottom: 0.5rem;
-  line-height: 3rem;
+  line-height: 2rem;
 `;
 
 export const HighlightedSentence = styled.p`
-  //
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
 `;
 
 export const ListHeading = styled.h2`
-  //
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
 `;
 
 export const Litem = styled.li`
   margin-bottom: 1rem;
   margin-left: 2.3rem;
   list-style-type: square;
+  line-height: 2rem;
 `;
 
 export const LitemTwo = styled.li`
   margin-bottom: 1rem;
   margin-left: 3.2rem;
   list-style-type: circle;
+  line-height: 2rem;
 `;
 
 export const Code = styled.p`
