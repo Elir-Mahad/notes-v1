@@ -10,7 +10,7 @@ import {
   LitemTwo,
 } from "../styles/Styles.js";
 
-function GitNotes() {
+function CodingWithOthers() {
   return (
     <div>
       <Head>
@@ -187,4 +187,4 @@ function GitNotes() {
   );
 }
 
-export default GitNotes;
+export default CodingWithOthers;

@@ -8,7 +8,7 @@ import {
   LitemTwo,
 } from "../styles/Styles.js";
 
-function GitNotes() {
+function WritingCommits() {
   return (
     <div>
       <Head>
@@ -48,4 +48,4 @@ function GitNotes() {
   );
 }
 
-export default GitNotes;
+export default WritingCommits;

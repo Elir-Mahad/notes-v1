@@ -12,7 +12,7 @@ import createrepo from "../assets/createrepo.png";
 import remoteurl from "../assets/remoteurl.png";
 import Image from "next/image";
 
-function GitNotes() {
+function RemoteOriginUrl() {
   return (
     <div>
       <Head>
@@ -64,4 +64,4 @@ function GitNotes() {
   );
 }
 
-export default GitNotes;
+export default RemoteOriginUrl;

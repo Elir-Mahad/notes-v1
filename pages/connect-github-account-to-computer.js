@@ -14,7 +14,7 @@ import githubusername from "../assets/githubusername.png";
 import githubuseremail from "../assets/githubuseremail.png";
 import Image from "next/image";
 
-function GitNotes() {
+function ConnectGithubToComputer() {
   return (
     <div>
       <Head>
@@ -77,4 +77,4 @@ function GitNotes() {
   );
 }
 
-export default GitNotes;
+export default ConnectGithubToComputer;
