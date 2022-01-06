@@ -16,7 +16,7 @@ function RemoteOriginUrl() {
   return (
     <div>
       <Head>
-        <title>Notes on git and github</title>
+        <title>How to add a remote url to your local repository</title>
         <meta
           name="keywords"
           content="Github, Git, frontend development, JavaScript, Tutorial, remote origin url"
@@ -27,10 +27,7 @@ function RemoteOriginUrl() {
         />
       </Head>
       <BlogBody>
-        <PostTitle>Notes on git and github</PostTitle>
-        <SubHeading>
-          How to add a remote url to your local repository
-        </SubHeading>
+        <PostTitle>How to add a remote url to your local repository</PostTitle>
         <Sentence>1. Create a repo:</Sentence>
         <PicWrapper>
           <Image

@@ -14,7 +14,7 @@ function CodingWithOthers() {
   return (
     <div>
       <Head>
-        <title>Notes on git and github</title>
+        <title>How to code with other people</title>
         <meta
           name="keywords"
           content="Github, Git, frontend development, JavaScript, Tutorial, Pair progamming"
@@ -25,8 +25,8 @@ function CodingWithOthers() {
         />
       </Head>
       <BlogBody>
-        <PostTitle>Notes on git and github</PostTitle>
-        <SubHeading>How to code with other people</SubHeading>
+        <PostTitle>How to code with other people</PostTitle>
+
         <Sentence>1. Pull the repo</Sentence>
         <Litem>If the main code is in the branch ‘master’ then </Litem>
         <Code>git pull master</Code>

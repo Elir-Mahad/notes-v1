@@ -12,7 +12,7 @@ function WritingCommits() {
   return (
     <div>
       <Head>
-        <title>Notes on git and github</title>
+        <title>Writing commits</title>
         <meta
           name="keywords"
           content="Github, Git, frontend development, JavaScript, Tutorial, writing commits"
@@ -20,9 +20,7 @@ function WritingCommits() {
         <meta name="description" content="How to write commits properly" />
       </Head>
       <BlogBody>
-        <PostTitle>Notes on git and github</PostTitle>
-        <SubHeading>How to write commits properly</SubHeading>
-
+        <PostTitle>How to write commits properly</PostTitle>
         <Litem>
           A commit is a set of instructions for how to go from a previous state
           to a new state.

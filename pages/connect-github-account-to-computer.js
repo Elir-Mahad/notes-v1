@@ -18,7 +18,7 @@ function ConnectGithubToComputer() {
   return (
     <div>
       <Head>
-        <title>Notes on git and github</title>
+        <title>How to connect your github account to your computer</title>
         <meta
           name="keywords"
           content="Github, Git, frontend development, JavaScript, Tutorial"
@@ -29,10 +29,9 @@ function ConnectGithubToComputer() {
         />
       </Head>
       <BlogBody>
-        <PostTitle>Notes on git and github</PostTitle>
-        <SubHeading>
+        <PostTitle>
           How to connect your github account to your computer
-        </SubHeading>
+        </PostTitle>
         <Sentence>1. Identify your github username and user email:</Sentence>
         <Litem> Your user name is in your github profile.</Litem>
         <PicWrapper>
