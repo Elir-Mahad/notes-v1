@@ -82,6 +82,12 @@ function Menu() {
                 Add remote url to local repo
               </BlogName>
             </Link>
+            {/*  */}
+            <Link href="/coding-with-others">
+              <BlogName onClick={hideContent}>
+                Coding with other people on github
+              </BlogName>
+            </Link>
           </BlogsMenu>
         )}
       </BlogMenuBox>
