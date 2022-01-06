@@ -57,19 +57,24 @@ function Menu() {
             {/*  */}
             <Link href="/deploy-react-github-pages">
               <BlogName onClick={hideContent}>
-                How to deploy a react site on github pages.
+                Deploy a react site on github pages.
               </BlogName>
             </Link>
             {/*  */}
             <Link href="/deploy-netlify">
               <BlogName onClick={hideContent}>
-                How to deploy a site on Netlify.
+                Deploy a site on Netlify.
               </BlogName>
             </Link>
             {/*  */}
-
             <Link href="/git-notes">
               <BlogName onClick={hideContent}>Git notes</BlogName>
+            </Link>
+            {/*  */}
+            <Link href="/connect-github-account-to-computer">
+              <BlogName onClick={hideContent}>
+                Connect github account to computer
+              </BlogName>
             </Link>
           </BlogsMenu>
         )}
