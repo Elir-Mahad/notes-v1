@@ -60,12 +60,10 @@ export const TbMicon = styled.div`
 export const BlogsMenu = styled.div`
   // width: 20rem;
   // height: 10rem;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
   overflow: auto;
   padding: 0.5rem;
-  margin-top: 0.3rem;
+  margin-top: 0.25rem;
   // margin-left: 1rem;
   background-color: #f6f6f6;
   // @media (max-width: 500px) {
