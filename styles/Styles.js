@@ -12,8 +12,8 @@ export const CustomMenu = styled.div`
   top: 0;
   // width: 20rem;
   height: 3rem;
-  background-color:white;
-  border-bottom:1px solid black;
+  background-color:#f6f6f6;
+  // border-bottom:1px solid black;
   // margin-top: 0.5rem;
   // padding:1rem;
   padding-top:0.2rem;
@@ -26,7 +26,7 @@ export const CustomMenu = styled.div`
 `;
 
 export const BlogMenuBox = styled.div`
-  //
+  background-color: #f6f6f6; ;
 `;
 
 export const TopBlogsMenu = styled.div`
