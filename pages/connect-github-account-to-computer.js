@@ -27,7 +27,7 @@ function GitNotes() {
         />
         <meta
           name="description"
-          content="Instructions on how to use github and git"
+          content="How to connect your github account to your computer"
         />
       </Head>
       <BlogBody>
