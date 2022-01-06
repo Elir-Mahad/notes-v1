@@ -67,10 +67,6 @@ function Menu() {
               </BlogName>
             </Link>
             {/*  */}
-            <Link href="/git-notes">
-              <BlogName onClick={hideContent}>Git notes</BlogName>
-            </Link>
-            {/*  */}
             <Link href="/connect-github-account-to-computer">
               <BlogName onClick={hideContent}>
                 Connect github account to computer
