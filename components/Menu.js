@@ -76,6 +76,12 @@ function Menu() {
                 Connect github account to computer
               </BlogName>
             </Link>
+            {/*  */}
+            <Link href="/add-remote-url-to-local-repo">
+              <BlogName onClick={hideContent}>
+                Add remote url to local repo
+              </BlogName>
+            </Link>
           </BlogsMenu>
         )}
       </BlogMenuBox>
