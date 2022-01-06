@@ -8,13 +8,7 @@ import {
   SubHeading,
   Code,
   LitemTwo,
-  PicWrapper,
 } from "../styles/Styles.js";
-import githubusername from "../assets/githubusername.png";
-import githubuseremail from "../assets/githubuseremail.png";
-import createrepo from "../assets/createrepo.png";
-import remoteurl from "../assets/remoteurl.png";
-import Image from "next/image";
 
 function GitNotes() {
   return (

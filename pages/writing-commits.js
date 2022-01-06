@@ -3,18 +3,10 @@ import {
   //
   BlogBody,
   Litem,
-  Sentence,
   PostTitle,
   SubHeading,
-  Code,
   LitemTwo,
-  PicWrapper,
 } from "../styles/Styles.js";
-import githubusername from "../assets/githubusername.png";
-import githubuseremail from "../assets/githubuseremail.png";
-import createrepo from "../assets/createrepo.png";
-import remoteurl from "../assets/remoteurl.png";
-import Image from "next/image";
 
 function GitNotes() {
   return (
@@ -23,7 +15,7 @@ function GitNotes() {
         <title>Notes on git and github</title>
         <meta
           name="keywords"
-          content="Github, Git, frontend development, JavaScript, Tutorial"
+          content="Github, Git, frontend development, JavaScript, Tutorial, writing commits"
         />
         <meta name="description" content="How to write commits properly" />
       </Head>
