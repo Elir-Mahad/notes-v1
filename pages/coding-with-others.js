@@ -5,7 +5,6 @@ import {
   Litem,
   Sentence,
   PostTitle,
-  SubHeading,
   Code,
   LitemTwo,
 } from "../styles/Styles.js";

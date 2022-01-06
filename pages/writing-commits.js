@@ -4,7 +4,6 @@ import {
   BlogBody,
   Litem,
   PostTitle,
-  SubHeading,
   LitemTwo,
 } from "../styles/Styles.js";
 

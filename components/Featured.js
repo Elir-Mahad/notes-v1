@@ -1,8 +1,9 @@
-import GitNotes from "../pages/git-notes";
+import CodingWithOthers from "../pages/coding-with-others";
+
 function Featured() {
   return (
     <div>
-      <GitNotes />
+      <CodingWithOthers />
     </div>
   );
 }

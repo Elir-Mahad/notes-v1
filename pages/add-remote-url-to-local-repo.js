@@ -4,7 +4,6 @@ import {
   BlogBody,
   Sentence,
   PostTitle,
-  SubHeading,
   Code,
   PicWrapper,
 } from "../styles/Styles.js";
