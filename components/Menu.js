@@ -88,6 +88,10 @@ function Menu() {
                 Coding with other people on github
               </BlogName>
             </Link>
+            {/*  */}
+            <Link href="/writing-commits">
+              <BlogName onClick={hideContent}>Writing commits</BlogName>
+            </Link>
           </BlogsMenu>
         )}
       </BlogMenuBox>
