@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const WholeApp = styled.div`
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Vollkorn", serif;
+  // font-family: "IBM Plex Mono", monospace;
 `;
 
 // Menu
@@ -44,6 +45,8 @@ export const TopBlogsMenu = styled.div`
 
 export const TbMheading = styled.a`
   text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
 `;
 
 export const TbMicon = styled.div`
@@ -92,7 +95,7 @@ export const BlogBody = styled.div`
 
 export const PostTitle = styled.h2`
   font-weight: 100;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: left;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -111,27 +114,32 @@ export const SubHeading = styled.h3`
 `;
 
 export const Paragraph = styled.p`
+  font-size: 1.4rem;
   margin-bottom: 1rem;
   text-indent: 50px;
   line-height: 2rem;
 `;
 
 export const Sentence = styled.p`
+  font-size: 1.4rem;
   margin-bottom: 0.5rem;
   line-height: 2rem;
 `;
 
-export const HighlightedSentence = styled.p`
-  margin-bottom: 0.5rem;
-  line-height: 2rem;
-`;
+// export const HighlightedSentence = styled.p`
+//   font-size: 1.4rem;
+//   margin-bottom: 0.5rem;
+//   line-height: 2rem;
+// `;
 
-export const ListHeading = styled.h2`
-  margin-bottom: 0.5rem;
-  line-height: 2rem;
-`;
+// export const ListHeading = styled.h2`
+//   font-size: 1.3rem;
+//   margin-bottom: 0.5rem;
+//   line-height: 2rem;
+// `;
 
 export const Litem = styled.li`
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   margin-left: 2.3rem;
   list-style-type: square;
@@ -139,6 +147,7 @@ export const Litem = styled.li`
 `;
 
 export const LitemTwo = styled.li`
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   margin-left: 3.2rem;
   list-style-type: circle;
@@ -146,6 +155,7 @@ export const LitemTwo = styled.li`
 `;
 
 export const Code = styled.p`
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
   padding: 1rem;
   background-color: #f6f8fa;

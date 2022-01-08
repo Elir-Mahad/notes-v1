@@ -12,7 +12,8 @@ export default function Home() {
           content="Notes on various topics regarding coding"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+          // href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
           rel="stylesheet"
         />
       </Head>
