@@ -97,6 +97,9 @@ export const PostTitle = styled.h2`
   padding: 1rem;
   margin-bottom: 1rem;
   background-color: lightgrey;
+  margin-left: -4rem;
+  margin-right: -4rem;
+  padding-left: 4rem;
 `;
 
 export const SubHeading = styled.h3`
