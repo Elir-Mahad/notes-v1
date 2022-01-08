@@ -27,10 +27,8 @@ function ConnectGithubToComputer() {
           content="How to connect your github account to your computer"
         />
       </Head>
+      <PostTitle>How to connect your github account to your computer</PostTitle>
       <BlogBody>
-        <PostTitle>
-          How to connect your github account to your computer
-        </PostTitle>
         <Sentence>1. Identify your github username and user email:</Sentence>
         <Litem> Your user name is in your github profile.</Litem>
         <PicWrapper>

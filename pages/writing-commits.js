@@ -18,8 +18,8 @@ function WritingCommits() {
         />
         <meta name="description" content="How to write commits properly" />
       </Head>
+      <PostTitle>How to write commits properly</PostTitle>
       <BlogBody>
-        <PostTitle>How to write commits properly</PostTitle>
         <Litem>
           A commit is a set of instructions for how to go from a previous state
           to a new state.

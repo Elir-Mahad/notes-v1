@@ -21,9 +21,8 @@ function DeployNetlifySite() {
           content="Instructions on how to deploy a basic html and css website on netlify"
         />
       </Head>
+      <PostTitle>How to deploy a site on netlify</PostTitle>
       <BlogBody>
-        <PostTitle>How to deploy a site on netlify</PostTitle>
-
         <Sentence>
           1. Get a domain from namecheap, hover, godaddy, or any other preferred
           site.

@@ -23,9 +23,8 @@ function CodingWithOthers() {
           content="Programming with other people. Github workflow. Pair programming."
         />
       </Head>
+      <PostTitle>How to code with other people</PostTitle>
       <BlogBody>
-        <PostTitle>How to code with other people</PostTitle>
-
         <Sentence>1. Pull the repo</Sentence>
         <Litem>If the main code is in the branch ‘master’ then </Litem>
         <Code>git pull master</Code>

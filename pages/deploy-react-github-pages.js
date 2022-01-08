@@ -23,8 +23,8 @@ function DeployReactSiteGit() {
           content="Instructions on how to deploy a react application on github pages"
         />
       </Head>
+      <PostTitle>How to deploy a react site on github pages</PostTitle>
       <BlogBody>
-        <PostTitle>How to deploy a react site on github pages</PostTitle>
         <Sentence>
           1. Connect your local folder to your repo and make your first commit.
         </Sentence>

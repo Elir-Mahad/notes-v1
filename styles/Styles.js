@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const WholeApp = styled.div`
   font-family: "Vollkorn", serif;
-  // font-family: "IBM Plex Mono", monospace;
 `;
 
 // Menu
@@ -11,40 +10,24 @@ export const CustomMenu = styled.div`
   z-index: 2;
   position: sticky;
   top: 0;
-  // width: 20rem;
   height: 3rem;
-  background-color:#f6f6f6;
-  // border-bottom:1px solid black;
-  // margin-top: 0.5rem;
-  // padding:1rem;
-  padding-top:0.2rem;
+  background-color: #f6f6f6;
+  padding-top: 0.2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  @media (max-width: 500px) {
-  width: unset;
-  // width: 15rem;
-  // }
 `;
 
 export const BlogMenuBox = styled.div`
-  background-color: #f6f6f6; ;
+  background-color: #f6f6f6;
 `;
 
 export const TopBlogsMenu = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // width: 20rem;
-  // font-size: 1.1rem;
-  // border: 1px solid black;
-  // @media (max-width: 500px) {
-  // width: unset;
-  // width: 15rem;
-  // }
 `;
 
 export const TbMheading = styled.a`
-  text-align: center;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
 `;
@@ -56,23 +39,16 @@ export const TbMicon = styled.div`
   padding-top: 0.5rem;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
-  // margin-left: 1rem;
+
   background-color: white;
 `;
 
 export const BlogsMenu = styled.div`
-  // width: 20rem;
-  // height: 10rem;
   border: 1px solid black;
   overflow: auto;
   padding: 0.5rem;
   margin-top: 0.25rem;
-  // margin-left: 1rem;
   background-color: #f6f6f6;
-  // @media (max-width: 500px) {
-  // width: unset;
-  // width: 15rem;
-  // }
 `;
 
 export const BlogName = styled.p`
@@ -83,26 +59,27 @@ export const BlogName = styled.p`
 
 // Individual blog
 
-export const BlogBody = styled.div`
-  // padding: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+export const PostTitle = styled.h2`
+  font-size: 1.6rem;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: lightgrey;
+  padding-left: 2rem;
+  padding-right: 2rem;
   @media (max-width: 500px) {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 `;
 
-export const PostTitle = styled.h2`
-  font-weight: 100;
-  font-size: 1.6rem;
-  text-align: left;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background-color: lightgrey;
-  margin-left: -4rem;
-  margin-right: -4rem;
-  padding-left: 4rem;
+export const BlogBody = styled.div`
+  padding-left: 2rem;
+  padding-right: 2rem;
+  @media (max-width: 500px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 `;
 
 export const SubHeading = styled.h3`
@@ -110,7 +87,6 @@ export const SubHeading = styled.h3`
   margin-top: 1rem;
   line-height: 2rem;
   color: darkblue;
-  font-weight: 100;
 `;
 
 export const Paragraph = styled.p`
