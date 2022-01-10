@@ -50,6 +50,7 @@ export const TbMicon = styled.div`
 export const BlogsMenu = styled.div`
   border: 1px solid black;
   overflow: auto;
+  height: 15rem;
   padding: 0.5rem;
   margin-top: 0.25rem;
   background-color: #f6f6f6;
