@@ -13,12 +13,10 @@ export default function Home() {
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
-          // href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
           rel="stylesheet"
         />
       </Head>
-      <h1>Hellow world</h1>
-      {/* <Featured /> */}
+      <Featured />
     </div>
   );
 }
