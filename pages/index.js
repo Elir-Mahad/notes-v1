@@ -17,7 +17,8 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Featured />
+      <h1>Hellow world</h1>
+      {/* <Featured /> */}
     </div>
   );
 }

@@ -25,8 +25,8 @@ function RemoteOriginUrl() {
           content="How to add a remote url to your local repository"
         />
       </Head>
+      <PostTitle>How to add a remote url to your local repository</PostTitle>
       <BlogBody>
-        <PostTitle>How to add a remote url to your local repository</PostTitle>
         <Sentence>1. Create a repo:</Sentence>
         <PicWrapper>
           <Image
