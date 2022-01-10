@@ -25,18 +25,42 @@ function CodingWithOthers() {
       </Head>
       <PostTitle>How to code with other people</PostTitle>
       <BlogBody>
+        <Sentence>
+          When i was learning how to code, i spent a lot of time coding by
+          myself. During this time, the one question that i consistently asked
+          myself was:{" "}
+          <em style={{ color: "darkblue" }}>
+            Is the code that i'm writing going to work ?
+          </em>{" "}
+          No other questions occupied my mind. Everytime that my code worked, i
+          felt a sense of accomplishment; and everytime that it didn't work, i
+          found myself haunted by the new question:{" "}
+          <em style={{ color: "darkblue" }}>Why didn't it work ? </em>
+        </Sentence>
+        <Sentence>
+          Eventually, i started to collaborate with other developers; and here,
+          i found myself haunted by a new set of questions:
+          <em style={{ color: "darkblue" }}>
+            Can another person understand my coding process, by simply reading
+            my commits ?
+          </em>{" "}
+          This question indicated a major philosophical shift in my
+          persepective. I'll dig into this shift, and its meaning, in another
+          post. For now, i will leave you with a set of instructions that i
+          often return to whenever i'm coding with others.
+        </Sentence>
         <Sentence>1. Pull the repo</Sentence>
         <Litem>If the main code is in the branch ‘master’ then </Litem>
         <Code>git pull master</Code>
         <Sentence>2. Work on a issues</Sentence>
         <Litem>
-          Before you create a branch, write an issue ticket outlining al the new
-          tasks/ features that you will be coding out.
+          Before you create a branch, write an issue outlining all the new tasks
+          / features that you will be coding out.
         </Litem>
         <Sentence>3. Create a branch of the master branch</Sentence>
         <Litem>
-          If you want to create a branch called header of the master branch,
-          first make sure that you are on the master branch:
+          For example, if you want to create a branch called header of the
+          master branch, first make sure that you are on the master branch:
         </Litem>
         <Code>git branch</Code>
         <Litem>terminal response: </Litem>
@@ -50,10 +74,15 @@ function CodingWithOthers() {
         <Code>git branch</Code>
         <Litem>Terminal response:</Litem>
         <Code>Switched to branch 'header'</Code>
-        <litem>Write the code for the header feature in this branch.</litem>
+        <litem>
+          Finally, write the code for the header feature in this branch.
+        </litem>
 
-        <Sentence>4. Push the header new branch:</Sentence>
-
+        <Sentence>4. Push your new branch into the master branch:</Sentence>
+        <Litem>
+          For example, if you just finished writing all your code for the header
+          branch then in the terminal write:
+        </Litem>
         <Code>
           git add . <br />
           git commit -m 'Add header code' <br />
@@ -74,8 +103,8 @@ function CodingWithOthers() {
         <Sentence>5. Create a pull request:</Sentence>
 
         <Litem>
-          Make sure that the branch you are requesting to merge your branch into
-          is the correct branch.
+          Make sure that the branch that you are requesting to merge your branch
+          into, is the correct branch.
         </Litem>
 
         <LitemTwo>
@@ -122,8 +151,8 @@ function CodingWithOthers() {
         <Sentence>6. Create a new branch:</Sentence>
 
         <Litem>
-          Change the branch back to the master or whatever the branch you are
-          going to be merging into is called.
+          Change the branch back to the master or whatever the branch that
+          you're going to be merging into is called.
         </Litem>
 
         <Litem>Switch to the master branch</Litem>
@@ -152,17 +181,17 @@ function CodingWithOthers() {
 
         <LitemTwo>
           Also, the other person finished working on the menu branch, they
-          submitted it, and it got merged.
+          submitted it, and it got merged into the master.
         </LitemTwo>
 
         <LitemTwo>
-          Now, imagine your next issue is about creating a button.
+          Now, imagine your next branch is about creating a button.
         </LitemTwo>
 
         <LitemTwo>
           Before you create the button branch, you must first update your local
-          repo with all the -code that has been merged into it so far (ie,
-          header + menu).
+          repo with all the code that has been merged into it so far (ie, header
+          + menu).
         </LitemTwo>
 
         <Litem>

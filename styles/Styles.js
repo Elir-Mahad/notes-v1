@@ -95,6 +95,7 @@ export const SubHeading = styled.h3`
 `;
 
 export const Paragraph = styled.p`
+  font-weight: 100;
   font-size: 1.4rem;
   margin-bottom: 1rem;
   text-indent: 50px;
@@ -102,6 +103,7 @@ export const Paragraph = styled.p`
 `;
 
 export const Sentence = styled.p`
+  font-weight: 100;
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
   line-height: 2rem;
@@ -120,6 +122,7 @@ export const Sentence = styled.p`
 // `;
 
 export const Litem = styled.li`
+  font-weight: 100;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   margin-left: 2.3rem;
@@ -128,6 +131,7 @@ export const Litem = styled.li`
 `;
 
 export const LitemTwo = styled.li`
+  font-weight: 100;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   margin-left: 3.2rem;
