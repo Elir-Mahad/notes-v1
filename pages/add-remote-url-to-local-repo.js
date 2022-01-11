@@ -6,6 +6,7 @@ import {
   PostTitle,
   Code,
   PicWrapper,
+  UrlLink,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
 import createrepo from "../assets/createrepo.png";
@@ -30,6 +31,17 @@ function RemoteOriginUrl() {
         How to add a remote url to your local repository
       </PostTitle>
       <BlogBody className={style.weight100}>
+        <Sentence>
+          If you have a folder on your computer with some files, and you want to
+          upload it to Github, then you must utilize something that's called the
+          'remote url'. A remote url is the{" "}
+          <UrlLink href="https://www.techtarget.com/searchnetworking/definition/URL">
+            url
+          </UrlLink>{" "}
+          that connects your local folder to the repository that you have
+          created on github. In this post, i will show you how to use the remote
+          url to establish this connection.
+        </Sentence>
         <Sentence>1. Create a repo:</Sentence>
         <PicWrapper>
           <Image

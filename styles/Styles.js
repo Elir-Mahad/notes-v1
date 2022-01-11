@@ -154,3 +154,8 @@ export const PicWrapper = styled.div`
   padding-top: 1rem;
   padding-bottom: 1rem;
 `;
+
+export const UrlLink = styled.a`
+  color: darkred;
+  border-bottom: 1px solid darkred;
+`;
