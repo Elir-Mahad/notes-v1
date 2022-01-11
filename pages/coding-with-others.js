@@ -13,11 +13,7 @@ import style from "../styles/Home.module.css";
 
 function CodingWithOthers() {
   return (
-    <div
-      style={{
-        fontFamily: "Vollkorn, serif",
-      }}
-    >
+    <div>
       <Head>
         <title>How to code with other people</title>
         <meta
@@ -27,6 +23,10 @@ function CodingWithOthers() {
         <meta
           name="description"
           content="Programming with other people. Github workflow. Pair programming."
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+          rel="stylesheet"
         />
       </Head>
       <PostTitle className={style.weight100}>
