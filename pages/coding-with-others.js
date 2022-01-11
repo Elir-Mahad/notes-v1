@@ -8,6 +8,7 @@ import {
   Code,
   LitemTwo,
 } from "../styles/Styles.js";
+import style from "../styles/Home.module.css";
 
 function CodingWithOthers() {
   return (
@@ -23,8 +24,10 @@ function CodingWithOthers() {
           content="Programming with other people. Github workflow. Pair programming."
         />
       </Head>
-      <PostTitle>How to code with other people</PostTitle>
-      <BlogBody>
+      <PostTitle className={style.weight100}>
+        How to code with other people
+      </PostTitle>
+      <BlogBody className={style.weight100}>
         <Sentence>
           When i was learning how to code, i spent a lot of time coding by
           myself. During this time, the one question that i consistently asked
