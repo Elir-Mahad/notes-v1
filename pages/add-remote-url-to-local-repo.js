@@ -7,6 +7,7 @@ import {
   Code,
   PicWrapper,
 } from "../styles/Styles.js";
+import style from "../styles/Home.module.css";
 import createrepo from "../assets/createrepo.png";
 import remoteurl from "../assets/remoteurl.png";
 import Image from "next/image";
@@ -25,8 +26,10 @@ function RemoteOriginUrl() {
           content="How to add a remote url to your local repository"
         />
       </Head>
-      <PostTitle>How to add a remote url to your local repository</PostTitle>
-      <BlogBody>
+      <PostTitle className={style.weight100}>
+        How to add a remote url to your local repository
+      </PostTitle>
+      <BlogBody className={style.weight100}>
         <Sentence>1. Create a repo:</Sentence>
         <PicWrapper>
           <Image
