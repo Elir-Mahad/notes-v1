@@ -8,7 +8,7 @@ import {
   Code,
   LitemTwo,
 } from "../styles/Styles.js";
-// import style from "../styles/Home.module.css";
+import style from "../styles/Home.module.css";
 // it worked
 
 function CodingWithOthers() {
