@@ -9,6 +9,7 @@ import {
   LitemTwo,
   PicWrapper,
 } from "../styles/Styles.js";
+import style from "../styles/Home.module.css";
 import githubusername from "../assets/githubusername.png";
 import githubuseremail from "../assets/githubuseremail.png";
 import Image from "next/image";
@@ -27,8 +28,10 @@ function ConnectGithubToComputer() {
           content="How to connect your github account to your computer"
         />
       </Head>
-      <PostTitle>How to connect your github account to your computer</PostTitle>
-      <BlogBody>
+      <PostTitle className={style.weight100}>
+        How to connect your github account to your computer
+      </PostTitle>
+      <BlogBody className={style.weight100}>
         <Sentence>1. Identify your github username and user email:</Sentence>
         <Litem> Your user name is in your github profile.</Litem>
         <PicWrapper>
