@@ -55,24 +55,6 @@ function Menu() {
               <BlogName onClick={hideContent}>About me</BlogName>
             </Link>
             {/*  */}
-            <Link href="/deploy-react-github-pages">
-              <BlogName onClick={hideContent}>
-                Deploy a react site on github pages.
-              </BlogName>
-            </Link>
-            {/*  */}
-            <Link href="/deploy-netlify">
-              <BlogName onClick={hideContent}>
-                Deploy a site on Netlify.
-              </BlogName>
-            </Link>
-            {/*  */}
-            <Link href="/connect-github-account-to-computer">
-              <BlogName onClick={hideContent}>
-                Connect github account to computer
-              </BlogName>
-            </Link>
-            {/*  */}
             <Link href="/add-remote-url-to-local-repo">
               <BlogName onClick={hideContent}>
                 Add remote url to local repo
@@ -82,6 +64,24 @@ function Menu() {
             <Link href="/coding-with-others">
               <BlogName onClick={hideContent}>
                 Coding with other people on github
+              </BlogName>
+            </Link>
+            {/*  */}
+            <Link href="/connect-github-account-to-computer">
+              <BlogName onClick={hideContent}>
+                Connect github account to computer
+              </BlogName>
+            </Link>
+            {/*  */}
+            <Link href="/deploy-netlify">
+              <BlogName onClick={hideContent}>
+                Deploy a site on Netlify.
+              </BlogName>
+            </Link>
+            {/*  */}
+            <Link href="/deploy-react-github-pages">
+              <BlogName onClick={hideContent}>
+                Deploy a react site on github pages.
               </BlogName>
             </Link>
             {/*  */}
