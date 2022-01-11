@@ -6,6 +6,7 @@ import {
   Sentence,
   PostTitle,
 } from "../styles/Styles.js";
+import style from "../styles/Home.module.css";
 
 function DeployNetlifySite() {
   return (
@@ -21,8 +22,10 @@ function DeployNetlifySite() {
           content="Instructions on how to deploy a basic html and css website on netlify"
         />
       </Head>
-      <PostTitle>How to deploy a site on netlify</PostTitle>
-      <BlogBody>
+      <PostTitle className={style.weight100}>
+        How to deploy a site on netlify
+      </PostTitle>
+      <BlogBody className={style.weight100}>
         <Sentence>
           1. Get a domain from namecheap, hover, godaddy, or any other preferred
           site.
