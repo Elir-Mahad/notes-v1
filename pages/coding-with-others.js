@@ -9,7 +9,7 @@ import {
   LitemTwo,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
-// Netilify still built and deployed. In build settings , set builds to 'stopped'.  Now maybe it won't deploy.
+//
 
 function CodingWithOthers() {
   return (
