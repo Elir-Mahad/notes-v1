@@ -8,7 +8,7 @@ import {
   Code,
   LitemTwo,
 } from "../styles/Styles.js";
-import style from "../styles/Home.module.css";
+// import style from "../styles/Home.module.css";
 // it worked
 
 function CodingWithOthers() {
@@ -24,11 +24,19 @@ function CodingWithOthers() {
           name="description"
           content="Programming with other people. Github workflow. Pair programming."
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      <PostTitle className={style.weight100}>
+      <PostTitle
+      // className={style.weight100}
+      >
         How to code with other people
       </PostTitle>
-      <BlogBody className={style.weight100}>
+      <BlogBody
+      // className={style.weight100}
+      >
         <Sentence>
           When i was learning how to code, i spent a lot of time coding by
           myself. During this time, the one question that i consistently asked
