@@ -8,6 +8,7 @@ import {
   Code,
   PostTitle,
 } from "../styles/Styles.js";
+import style from "../styles/Home.module.css";
 
 function DeployReactSiteGit() {
   return (
@@ -23,8 +24,10 @@ function DeployReactSiteGit() {
           content="Instructions on how to deploy a react application on github pages"
         />
       </Head>
-      <PostTitle>How to deploy a react site on github pages</PostTitle>
-      <BlogBody>
+      <PostTitle className={style.weight100}>
+        How to deploy a react site on github pages
+      </PostTitle>
+      <BlogBody className={style.weight100}>
         <Sentence>
           1. Connect your local folder to your repo and make your first commit.
         </Sentence>
