@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const WholeApp = styled.div`
-  font-family: "Vollkorn", serif;
+  font-family: "Martel", serif;
+  // font-family: "Vollkorn", serif;
 `;
 
 // Menu
