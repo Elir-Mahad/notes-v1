@@ -13,7 +13,11 @@ import style from "../styles/Home.module.css";
 
 function CodingWithOthers() {
   return (
-    <div>
+    <div
+      style={{
+        fontFamily: "Vollkorn, serif",
+      }}
+    >
       <Head>
         <title>How to code with other people</title>
         <meta
