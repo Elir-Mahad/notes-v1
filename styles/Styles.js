@@ -153,9 +153,10 @@ export const Code = styled.p`
 export const PicWrapper = styled.div`
   padding-top: 1rem;
   padding-bottom: 1rem;
+  width: 50rem;
 `;
 
 export const UrlLink = styled.a`
-  color: darkred;
-  border-bottom: 1px solid darkred;
+  color: darkblue;
+  border-bottom: 1px solid darkblue;
 `;

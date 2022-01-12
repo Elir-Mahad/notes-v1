@@ -7,10 +7,12 @@ import {
   Code,
   PicWrapper,
   UrlLink,
+  Litem,
 } from "../styles/Styles.js";
 import style from "../styles/Home.module.css";
 import createrepo from "../assets/createrepo.png";
 import remoteurl from "../assets/remoteurl.png";
+import openrepoinvsc from "../assets/openrepoinvsc.png";
 import Image from "next/image";
 
 function RemoteOriginUrl() {
@@ -42,7 +44,7 @@ function RemoteOriginUrl() {
           created on github. In this post, i will show you how to use the remote
           url to establish this connection.
         </Sentence>
-        <Sentence>1. Create a repo:</Sentence>
+        <Sentence>1. In your github account, create a repository:</Sentence>
         <PicWrapper>
           <Image
             //
@@ -50,10 +52,7 @@ function RemoteOriginUrl() {
             alt="Github page for creating a new repository"
           />
         </PicWrapper>
-        <Sentence>
-          2. Copy and paste the remote origin url into the terminal or vsc
-          terminal:
-        </Sentence>
+        <Sentence>2. Copy the remote origin url:</Sentence>
         <PicWrapper>
           <Image
             //
@@ -62,13 +61,35 @@ function RemoteOriginUrl() {
           />
         </PicWrapper>
         <Sentence>
-          3. Check that remote url is connected to local repo:
+          3. Open your visual studio code, then open your project inside it:
+        </Sentence>
+        <PicWrapper style={{ width: "40rem" }}>
+          <Image
+            //
+            src={openrepoinvsc}
+            alt="Visual studio code with the game repository opened inside it"
+          />
+        </PicWrapper>
+        <Sentence>
+          4. Open the visual studio code terminal and paste the remote url:
+        </Sentence>
+        <Code>
+          git remote add origin https://github.com/Elir-Mahad/game.git
+        </Code>
+        <Sentence>
+          4. Confirm that your local folder is connected to your github
+          repository:
         </Sentence>
         <Code>git remote -v</Code>
+        <Litem>Terminal response should be:</Litem>
+        <Code> https://github.com/Elir-Mahad/game.git </Code>
         <Sentence>
-          4. If a remote url is already connected to your local repo then remove
-          it with:
+          5. Removing an old remote url from a project and adding a new one.
         </Sentence>
+        <Litem>
+          If you've already added a remote url to your folder, but you want to
+          replace it with a new remote url then in your terminal type:
+        </Litem>
         <Code>git remote remove origin</Code>
       </BlogBody>
     </div>
