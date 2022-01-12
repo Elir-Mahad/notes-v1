@@ -82,7 +82,10 @@ function RemoteOriginUrl() {
         </Sentence>
         <Code>git remote -v</Code>
         <Litem>Terminal response should be:</Litem>
-        <Code> https://github.com/Elir-Mahad/game.git </Code>
+        <Code>
+          origin https://github.com/Elir-Mahad/game.git (fetch) <br />
+          origin https://github.com/Elir-Mahad/game.git (push)
+        </Code>
         <Sentence>
           5. Removing an old remote url from a project and adding a new one.
         </Sentence>
